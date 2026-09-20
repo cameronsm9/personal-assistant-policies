@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms &amp; Conditions — Personal SMS Assistant</title>
+<style>
+:root{
+  --bg:#faf9f7; --surface:#ffffff; --text:#1c1a17; --muted:#6b655c;
+  --border:#e7e2da; --accent:#3a5a45; --accent-soft:#e8efe9;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#17161a; --surface:#1f1e23; --text:#eeece7; --muted:#a7a29a;
+    --border:#33313a; --accent:#8fc9a3; --accent-soft:#22302a;
+  }
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:Georgia, "Times New Roman", serif;
+  padding:48px 20px;
+}
+.page{max-width:680px; margin:0 auto;}
+.eyebrow{
+  font-family:system-ui, sans-serif; font-size:12px; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--accent); font-weight:600; margin:0 0 10px;
+}
+h1{font-size:34px; line-height:1.15; margin:0 0 6px;}
+.meta{font-family:system-ui, sans-serif; color:var(--muted); font-size:14px; margin:0 0 36px;}
+.card{
+  background:var(--surface); border:1px solid var(--border); border-radius:14px;
+  padding:32px clamp(20px,4vw,40px);
+}
+h2{
+  font-family:system-ui, sans-serif; font-size:15px; letter-spacing:.02em;
+  text-transform:uppercase; color:var(--accent); margin:32px 0 10px; font-weight:600;
+}
+h2:first-of-type{margin-top:0;}
+p{font-size:17px; line-height:1.65; max-width:60ch; margin:0 0 14px; color:var(--text);}
+ul{font-size:17px; line-height:1.65; max-width:60ch; padding-left:20px; margin:0 0 14px;}
+li{margin-bottom:6px;}
+a{color:var(--accent);}
+</style>
+</head>
+<body>
+<div class="page">
+  <p class="eyebrow">Terms &amp; Conditions</p>
+  <h1>Personal SMS Assistant</h1>
+  <p class="meta">Last updated September 2026 &middot; Operated by Cameron (individual, personal use)</p>
+  <div class="card">
+    <h2>Service description</h2>
+    <p>This SMS service is a private, personal-use application built by its owner to manage his own tasks and reminders by text message. It is not offered to the public and has no signup process.</p>
+
+    <h2>Messaging</h2>
+    <ul>
+      <li>Message and data rates may apply from your carrier.</li>
+      <li>Message frequency varies based on how often the owner texts the assistant.</li>
+      <li>Reply <strong>STOP</strong> to opt out at any time, or <strong>HELP</strong> for help.</li>
+    </ul>
+
+    <h2>No warranty</h2>
+    <p>This is a personal hobby project provided as-is, with no guarantee of uptime, accuracy, or fitness for any particular purpose.</p>
+
+    <h2>Changes</h2>
+    <p>These terms may change as the assistant's capabilities change. The current version always applies.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:cameronsm7@gmail.com">cameronsm7@gmail.com</a></p>
+  </div>
+</div>
+</body>
+</html>
