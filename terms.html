@@ -4,70 +4,48 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Terms &amp; Conditions — Personal SMS Assistant</title>
-<style>
-:root{
-  --bg:#faf9f7; --surface:#ffffff; --text:#1c1a17; --muted:#6b655c;
-  --border:#e7e2da; --accent:#3a5a45; --accent-soft:#e8efe9;
-}
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#17161a; --surface:#1f1e23; --text:#eeece7; --muted:#a7a29a;
-    --border:#33313a; --accent:#8fc9a3; --accent-soft:#22302a;
-  }
-}
-*{box-sizing:border-box;}
-body{
-  margin:0; background:var(--bg); color:var(--text);
-  font-family:Georgia, "Times New Roman", serif;
-  padding:48px 20px;
-}
-.page{max-width:680px; margin:0 auto;}
-.eyebrow{
-  font-family:system-ui, sans-serif; font-size:12px; letter-spacing:.12em;
-  text-transform:uppercase; color:var(--accent); font-weight:600; margin:0 0 10px;
-}
-h1{font-size:34px; line-height:1.15; margin:0 0 6px;}
-.meta{font-family:system-ui, sans-serif; color:var(--muted); font-size:14px; margin:0 0 36px;}
-.card{
-  background:var(--surface); border:1px solid var(--border); border-radius:14px;
-  padding:32px clamp(20px,4vw,40px);
-}
-h2{
-  font-family:system-ui, sans-serif; font-size:15px; letter-spacing:.02em;
-  text-transform:uppercase; color:var(--accent); margin:32px 0 10px; font-weight:600;
-}
-h2:first-of-type{margin-top:0;}
-p{font-size:17px; line-height:1.65; max-width:60ch; margin:0 0 14px; color:var(--text);}
-ul{font-size:17px; line-height:1.65; max-width:60ch; padding-left:20px; margin:0 0 14px;}
-li{margin-bottom:6px;}
-a{color:var(--accent);}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="page">
+  <nav>
+    <a href="./">Home &amp; SMS sign-up</a>
+    <a href="terms.html" aria-current="page">Terms &amp; Conditions</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
   <p class="eyebrow">Terms &amp; Conditions</p>
   <h1>Personal SMS Assistant</h1>
-  <p class="meta">Last updated September 2026 &middot; Operated by Cameron (individual, personal use)</p>
-  <div class="card">
-    <h2>Service description</h2>
-    <p>This SMS service is a private, personal-use application built by its owner to manage his own tasks and reminders by text message. It is not offered to the public and has no signup process.</p>
+  <p class="meta">Last updated September 28, 2026 &middot; Operated by Cameron</p>
 
-    <h2>Messaging</h2>
+  <div class="card">
+    <h2>SMS program</h2>
     <ul>
-      <li>Message and data rates may apply from your carrier.</li>
-      <li>Message frequency varies based on how often the owner texts the assistant.</li>
-      <li>Reply <strong>STOP</strong> to opt out at any time, or <strong>HELP</strong> for help.</li>
+      <li><strong>Program name:</strong> Personal SMS Assistant.</li>
+      <li><strong>Program description:</strong> a task and reminder application used by text message. Users text the assistant to create, look up, and update tasks and reminders; the application replies with confirmations, task summaries, and the reminders the user requested. No marketing or promotional messages are sent.</li>
+      <li><strong>How to sign up:</strong> by entering your mobile number on the <a href="./#sign-up">sign-up form</a> and checking the optional SMS consent box. You will receive a confirmation text immediately after opting in.</li>
+      <li><strong>Message frequency:</strong> message frequency varies based on how often you text the assistant and the reminders you set.</li>
+      <li><strong>Cost:</strong> message and data rates may apply. Contact your wireless carrier for details about your plan.</li>
+      <li><strong>Opting out:</strong> you can cancel the SMS service at any time. Text <strong>STOP</strong> to the assistant's number. After you send STOP, you will receive one message confirming that you have been unsubscribed, and you will receive no further messages. To rejoin, sign up again or text <strong>START</strong>.</li>
+      <li><strong>Help:</strong> if you are experiencing issues, text <strong>HELP</strong> to the assistant's number or email <a href="mailto:cameronsm7@gmail.com">cameronsm7@gmail.com</a>.</li>
+      <li><strong>Carrier liability:</strong> carriers are not liable for delayed or undelivered messages.</li>
+      <li><strong>Privacy:</strong> see our <a href="privacy.html">Privacy Policy</a>.</li>
     </ul>
 
+    <h2>Eligibility</h2>
+    <p>You must be the account holder or authorized user of the mobile number you sign up with. Access is limited to invited users.</p>
+
     <h2>No warranty</h2>
-    <p>This is a personal hobby project provided as-is, with no guarantee of uptime, accuracy, or fitness for any particular purpose.</p>
+    <p>The service is provided as-is, with no guarantee of uptime, accuracy of task summaries, or delivery of any particular reminder. Do not rely on it for time-critical, medical, or emergency needs.</p>
 
     <h2>Changes</h2>
-    <p>These terms may change as the assistant's capabilities change. The current version always applies.</p>
+    <p>These terms may change as the service's features change. The current version on this page always applies.</p>
 
     <h2>Contact</h2>
     <p><a href="mailto:cameronsm7@gmail.com">cameronsm7@gmail.com</a></p>
   </div>
+
+  <footer>&copy; 2026 Personal SMS Assistant &middot; <a href="./">Home</a> &middot; <a href="privacy.html">Privacy Policy</a></footer>
 </div>
 </body>
 </html>

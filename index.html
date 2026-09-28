@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal SMS Assistant — Sign Up for Text Messages</title>
+<meta name="description" content="Personal SMS Assistant: a task and reminder assistant you use by text message. Sign up for SMS task confirmations and reminders.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <nav>
+    <a href="./" aria-current="page">Home &amp; SMS sign-up</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <p class="eyebrow">Personal SMS Assistant</p>
+  <h1>Your tasks and reminders, by text message</h1>
+  <p class="meta">Operated by Cameron &middot; Contact <a href="mailto:cameronsm7@gmail.com">cameronsm7@gmail.com</a></p>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <p>Personal SMS Assistant is a task and reminder application you use by text message. You text the assistant's number in plain language &mdash; for example &ldquo;Add a task to send Alex the deck by Thursday&rdquo; or &ldquo;What do I need to do this week?&rdquo; &mdash; and the application replies with a confirmation, a summary of your tasks, or the reminder you asked for.</p>
+
+    <h2>Messages you will receive</h2>
+    <ul>
+      <li>Replies to your own texts: task confirmations, task lists, and answers to questions about your tasks.</li>
+      <li>Reminders you set up yourself, at the time you asked for.</li>
+      <li>Account messages: an opt-in confirmation, HELP replies, and an opt-out confirmation.</li>
+    </ul>
+    <p>No marketing or promotional messages are sent. Message frequency varies with how often you text the assistant and how many reminders you set. Message and data rates may apply.</p>
+  </div>
+
+  <div class="card" id="sign-up">
+    <h2>Sign up</h2>
+    <p>Access is limited to a small number of invited users. Submitting this form sends a sign-up request to the operator by email; SMS is only turned on for your number if you check the optional consent box below.</p>
+
+    <form action="mailto:cameronsm7@gmail.com?subject=Personal%20SMS%20Assistant%20sign-up" method="post" enctype="text/plain">
+      <label class="field" for="name">Name</label>
+      <input type="text" id="name" name="name" autocomplete="name" required>
+
+      <label class="field" for="phone">Mobile phone number</label>
+      <input type="tel" id="phone" name="mobile_phone" autocomplete="tel" placeholder="(555) 555-0123" required>
+
+      <label class="consent" for="sms_consent">
+        <input type="checkbox" id="sms_consent" name="sms_consent" value="yes">
+        <span><strong>(Optional)</strong> By checking this box, I agree to receive text messages from Personal SMS Assistant at the mobile number provided, including task confirmations, task summaries, and reminders I request. Message frequency varies. Message and data rates may apply. Reply HELP for help. Reply STOP to opt out at any time. Consent is not a condition of any purchase or of signing up. See our <a href="terms.html">Terms &amp; Conditions</a> and <a href="privacy.html">Privacy Policy</a>.</span>
+      </label>
+
+      <button type="submit">Request access</button>
+    </form>
+
+    <p class="fine">You can submit this form without checking the SMS box; you will then be contacted by email only, and no text messages will be sent to you. If you do opt in, you will immediately receive a confirmation text: &ldquo;Personal SMS Assistant: You're signed up for task and reminder texts. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out.&rdquo;</p>
+  </div>
+
+  <div class="card">
+    <h2>Help and opting out</h2>
+    <ul>
+      <li>Text <strong>HELP</strong> to the assistant's number at any time for help, or email <a href="mailto:cameronsm7@gmail.com">cameronsm7@gmail.com</a>.</li>
+      <li>Text <strong>STOP</strong> to the assistant's number at any time to stop all messages. You will receive one final confirmation and no further texts.</li>
+    </ul>
+    <p>Mobile numbers and SMS opt-in consent are never sold or shared with third parties or affiliates for marketing purposes. See the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>&copy; 2026 Personal SMS Assistant &middot; <a href="terms.html">Terms &amp; Conditions</a> &middot; <a href="privacy.html">Privacy Policy</a></footer>
+</div>
+</body>
+</html>
